@@ -1,10 +1,10 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { EnrollmentError1 } from 'error/all.error';
 import { Exception } from 'src/class/exception/exception';
 import { EnrollmentEntity } from 'src/entity/enrollment.entity';
 import { UserEntity } from 'src/entity/user.entity';
 import { UserRolesTypesEnum } from 'src/enum/user-roles-types.enum';
+import { EnrollmentError1 } from 'src/error/all.error';
 import { DataSource, EntityManager, Repository } from 'typeorm';
 
 @Injectable()
